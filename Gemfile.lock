@@ -75,6 +75,7 @@ GEM
       rails (>= 3.0.0)
       warden (~> 1.2)
       warden-oauth2 (~> 0.0.1)
+    generic_form_builder (0.13.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     govuk-lint (0.5.3)
@@ -188,6 +189,7 @@ GEM
       tins (<= 1.6.0)
     ruby-progressbar (1.8.1)
     safe_yaml (1.0.4)
+    selectize-rails (0.12.1)
     simplecov (0.11.2)
       docile (~> 1.1.0)
       json (~> 1.8)
@@ -237,12 +239,14 @@ DEPENDENCIES
   deprecated_columns
   factory_girl_rails (= 4.7.0)
   gds-sso (= 12.1.0)
+  generic_form_builder (~> 0.13)
   govuk-lint
   logstasher (= 0.6.2)
   plek (~> 1.12)
   pry
   rails (= 4.2.6)
   rspec-rails (~> 3.4)
+  selectize-rails (~> 0.12)
   simplecov (= 0.11.2)
   simplecov-rcov (= 0.2.3)
   sqlite3

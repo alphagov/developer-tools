@@ -10,6 +10,8 @@ gem "deprecated_columns"
 gem "gds-sso", "12.1.0"
 gem "plek", "~> 1.12"
 gem "airbrake", "~> 5.4.1"
+gem "selectize-rails", "~> 0.12"
+gem "generic_form_builder", "~> 0.13"
 group :development, :test do
   gem "pry"
   gem "simplecov-rcov", "0.2.3", require: false

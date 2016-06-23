@@ -17,6 +17,11 @@ Bundler.require(*Rails.groups)
 
 module GovukDeveloperTools
   class Application < Rails::Application
+      # Better forms
+  require "admin_form_builder"
+  config.action_view.default_form_builder = AdminFormBuilder
+  config.action_view.field_error_proc = proc {|html_tag, _| html_tag }
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
