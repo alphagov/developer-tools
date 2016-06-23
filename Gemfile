@@ -15,6 +15,7 @@ gem "generic_form_builder", "~> 0.13"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
 gem "quiet_assets", "1.1.0"
+gem "govuk_admin_template", "~> 3.5"
 group :development, :test do
   gem "pry"
   gem "simplecov-rcov", "0.2.3", require: false
