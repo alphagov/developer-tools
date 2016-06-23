@@ -18,6 +18,8 @@ gem "quiet_assets", "1.1.0"
 gem "govuk_admin_template", "~> 3.5"
 gem "capybara", "~> 2.7"
 gem "poltergeist", "~> 1.9"
+gem "mime-types", "2.99.2"
+gem "gds-api-adapters", "~> 31.1"
 group :development, :test do
   gem "pry"
   gem "simplecov-rcov", "0.2.3", require: false
