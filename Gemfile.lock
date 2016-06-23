@@ -53,6 +53,7 @@ GEM
     deprecated_columns (0.1.1)
       rails (>= 4.0)
     diff-lcs (1.2.5)
+    docile (1.1.5)
     erubis (2.7.0)
     factory_girl (4.7.0)
       activesupport (>= 3.0.0)
@@ -178,6 +179,13 @@ GEM
       tins (<= 1.6.0)
     ruby-progressbar (1.8.1)
     safe_yaml (1.0.4)
+    simplecov (0.11.2)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    simplecov-rcov (0.2.3)
+      simplecov (>= 0.4.1)
     sprockets (3.6.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -223,11 +231,16 @@ DEPENDENCIES
   plek (~> 1.12)
   rails (= 4.2.6)
   rspec-rails (~> 3.4)
+  simplecov (= 0.11.2)
+  simplecov-rcov (= 0.2.3)
   sqlite3
   timecop
   unicorn (~> 5.1.0)
   web-console (~> 2.0)
   webmock
+
+RUBY VERSION
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.12.4
